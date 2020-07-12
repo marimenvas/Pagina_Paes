@@ -204,6 +204,11 @@ hr{
         width: 100%;
     }
 
+    p{
+
+    font-size: 8px;
+    }
+
     .ultima{
         flex-direction: column;
     }
