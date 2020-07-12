@@ -1,0 +1,217 @@
+* { margin:0;
+    padding:0;
+    font-family: 'calibri', sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    background-color: black;
+    color:white;
+    font-weight:lighter;
+}
+
+.mobile{
+    display:none;
+}
+
+.menu{
+    display: flex; 
+    padding:5px;
+    justify-content: space-between;
+    align-items:center;
+}
+
+nav{
+    width: 90%; 
+    display: flex;
+    align-items: center; 
+}
+
+h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'calibri';
+    font-size: 38pt;
+    font-weight: lighter;
+    padding-left: 10px;
+}
+
+.menu_lista{
+    width: 45%; 
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-right: 0;
+    margin-left: auto;
+    font-family:'Calibri';
+}
+
+.logo1 img{
+    width: 100%;    
+}
+
+.logo1{
+    width: 10%;
+}
+.image1{
+    width: 100%;
+}
+
+.container{
+    width:95%;
+    margin: 4em auto;
+    display: flex; 
+    justify-content: space-around;
+    align-items:center;
+}
+
+.articles-container{
+    width: 95%;
+    margin: 3em auto;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.card{
+    width: 23%;
+    margin: 30px auto;
+}
+
+.card img{
+    width: 100%;
+}
+
+article h2{
+    font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+}
+
+article p{
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.articles-container2{
+    
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card2{
+    width: 100%;
+    display: flex;
+    margin: 15px auto;
+}
+
+.card2 img{
+    width: 35%;
+    
+}
+
+.card2 article{
+    width: 50%;
+    
+}
+
+.card2 p{
+    width: 100%;
+}
+
+.card3{
+    width: 50%;  
+}
+
+.car3 img{
+    width: 100%;
+}
+
+h2{
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'calibri';
+    font-size: 20pt;
+    font-weight: lighter;
+    padding-left: 10px;
+}
+
+.container2{
+    width:95%;
+    margin: 4em auto;
+    display: flex; 
+    justify-content: space-around;
+    align-items:center;
+}
+
+.ultima{
+    width:100%;
+    background-color: brown;
+    display: flex;
+}
+
+hr{
+    margin: 3em 0;
+}
+
+
+@media (max-width:500px){
+
+    .mobile{
+        display: block;
+        width: 20px;        
+    }
+
+    .mobile img{
+        width: 100%;
+    }
+
+    nav{
+        justify-content: space-between;
+    }
+
+    h1{
+        font-size: 18px;
+    }
+
+    .menu_lista{
+        display: none;
+    }
+
+    .card{
+        width: 45%;
+    }
+
+    .container2{
+        flex-direction: column;
+    }
+
+    .card3, .card2{
+        width:100%;
+    }
+
+    .articles-container2{
+        width: 100%;
+    }
+
+    .ultima{
+        flex-direction: column;
+    }
+
+    .ultima ul{
+        width: 100%;
+    }
+
+    
+
+}
